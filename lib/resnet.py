@@ -18,8 +18,7 @@ Code author: Chinedu Nwoye <br>
 -----
 """
 
-
-import tensorflow as tf
+from tf_compat import tf
 import numpy as np
 import lib.resnet_utils as utils
 

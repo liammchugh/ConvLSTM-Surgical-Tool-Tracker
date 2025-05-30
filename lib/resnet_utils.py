@@ -18,7 +18,7 @@ Code author: Chinedu Nwoye <br>
 """
 
 import numpy as np
-import tensorflow as tf
+from tf_compat import tf
 
 ## TensorFlow helper functions
 

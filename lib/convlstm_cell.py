@@ -18,8 +18,8 @@ Code author: Chinedu Nwoye <br>
 """
 # Lib built by TensorFlow Authors with slight modification from CAMMA Researchers
 # ===============================================================================
+from tf_compat import tf
 
-import tensorflow as tf
 import lib.resnet_utils as utils
  
 class ConvLSTMCell(tf.nn.rnn_cell.RNNCell):

@@ -7,7 +7,8 @@ WORK: Created on Mon 12 Nov 14:13:52 2018
 @author: nwoye (CAMMA, iCube) Universite' de Strasbourg, France
 """
 
-import tensorflow as tf
+from tf_compat import tf
+
 import numpy as np
 from lib import resnet as resnet 
 from lib.convlstm_cell import ConvLSTM
